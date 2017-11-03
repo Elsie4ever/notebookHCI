@@ -1,0 +1,395 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <!--this page-->
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel = "stylesheet" type = "text/css" href = "css/proposal.css" />
+    <title>Project Proposal</title>
+</head>
+<body>
+<div class="container-fluid wrap">
+    <div class="container-fluid header">
+        <nav class="navbar">
+            <ul>
+                <div class="col-lg-2 col-md-12">
+                    <h3 style="padding:0px 15px;float:left"><img src="image/easyClass_icon.png" style="height: 50px;"/></h3>
+                    <button class="hidden-lg col-md-2 col-sm-2 col-xs-2 collapse-button" style="float:right;padding-top: 20px;" type="button" id="c-button">
+                        <img src="image/leaf.ico" style="height:50px;"/>
+                    </button>
+                </div>
+                <li class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                    <a class="link-1" href="index.html">Home</a>
+                </li>
+                <li class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                    <a class="link-1" href="proposal.html">Project Proposal</a>
+                </li>
+                <li class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                    <a class="link-1" href="lo_fi.html">Lo-Fi</a>
+                </li>
+                <li class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                    <a class="link-1" href="hi_fi.html">High-Fi</a>
+                </li>
+                <li class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                    <a class="link-1" href="feedback.html">Feedback</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav" style="text-align: center;">
+                    <span class="close-button" title="Close Modal">&times;</span>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="proposal.html">Project Proposal</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="lo_fi.html">Low-fidelity Prototype</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="#">Test Plan and Evaluation</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="#">High-fidelity Prototype</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="#">Formative Feedback</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="container-fluid" style="text-align:center;">
+        <div class="col-lg-2 col-md-4 col-sm-3 col-xs-5 contentDiv" id="contentNav" style="padding: 0">
+            <div style="padding:30px 0px;">
+                <a href="#observingUser" style="color: white;">Observations</a>
+            </div>
+            <div class="even" style="padding:30px 0px;">
+                <a href="#problem" style="color: darkgray;">Problem</a>
+            </div>
+            <div style="padding:30px 0px;">
+                <a href="#persona" style="color: white;">Personas Development</a>
+            </div>
+            <div class="even" style="padding:30px 0px;">
+                <a href="#userSce" style="color: darkgray;">Users Scenario</a>
+            </div>
+            <div style="padding:30px 0px;">
+                <a href="#relatedProduct" style="color: white;">Relevant Products</a>
+            </div>
+            <div class="even" style="padding:30px 0px;">
+                <a href="#compareProduct" style="color: darkgray;">Products Comparison</a>
+            </div>
+            <div style="padding:30px 0px;">
+                <a href="#highlevel" style="color: white;">High-Level Design </a>
+            </div>
+            <div class="even" style="padding:30px 0px;">
+                <a href="#feasibility" style="color: darkgray;">Feasibility Justification</a>
+            </div>
+        </div>
+        <div class="col-lg-8 col-lg-push-3 col-md-8 col-md-push-4 col-sm-9 col-sm-push-3 col-xs-7 col-xs-push-5 paragraph" id="parag" style="padding:2% 10%;">
+            <h2 style="text-decoration: underline">HCI Project Proposal: Easy Class</h2>
+            <!--Observations-->
+            <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="observingUser"></a>Observations</p>
+            <p style="text-align: left;">
+                <mark>SETTING: PHYS 142 class in LEACOK 132</mark><br><br>
+                Leacock 132 is the largest lecture hall in the McGill downtown campus, with the capacity to accommodate over 600 students. Lectures in this room are usually delivered by lecturers explaining materials through the use of PowerPoint, projectors and microphones. Spacious environments such as these tend to give rise to some interaction problems between lecturers and students. During this lecture, the instructor opened an ended question designed to instigate dialogue, and then a female student sitting in the left portion of the classroom close to the front raised her hand and asked the instructor a question she had. She spoke in such a low voice that it was really difficult for the observer sitting at the back of the hall to make sense of her question. And so the lecture went on; the instructor routinely paused again to elicit any questions students may have had. Despite the fact that one student did raise their hand to ask a question, the instructor resumed lecturing after quickly glancing through half the classroom whilst the other half went completely unnoticed.
+                <br><br>
+                Reflection: In this scenario, owing to the spaciousness of the lecture hall, students' voices were not audible for everyone in the room. Furthermore, raised hands went unnoticed by the instructor. <br><br>
+                <mark>SETTING: MATH 133 class in MAASS 112</mark><br><br>
+                MAASS 112 is also a large lecture room with capacity to accommodate around 200 students. For a traditional math course like MATH 133, the instructor decided to use the blackboard to explain the course materials. During this lecture, there was a keen and active student literally asking questions every time the instructor paused for Q&A. When the class was approaching its end, he bombarded the instructor with a series of questions till the lecture ended. The classroom was chaotic, as that particular student was interacting with instructors while some other groups of students also started to discuss amongst each other, but there were also some students who remained still and silent.<br><br>
+                Reflection: In this scenario, the lecture was somehow turned into a personal tutorial, as one particular student relentlessly questioned the instructor. This type of student can be categorized as a Schmoozer in our persona models. The students who remained calm, on the other hand, would correspond to the Thinker persona.<br><br>
+                <mark>SETTING: ECSE 330 tutorial in Trottier 2120</mark><br><br>
+                Trottier 2110 is a relatively small lecture room with capacity to accommodate around 70 students. In this tutorial, the teaching assistant made use of the blackboard to help students review the course materials. In the middle of the tutorial, one student obviously had some questions, but the student also seemed timid, raising their hand slowly and then putting it down later after noticing the teaching assistant did not look for questions but kept writing on the board. <br><br>
+                Reflection:  In this scenario, whilst concentrating solely on writing on the blackboard, the teaching assistant didn't notice the student's question. Alone and timid, the student in this case is a perfect example of the Loner persona. <br><br>
+            </p>
+            <!--Problem-->
+            <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="problem"></a>Problem</p>
+            <p style="text-align: left;">
+                University lectures can be very long, unorganized, and are often filled with complex information that may require further elaboration. Based on our observations in lecture rooms, we identified 3 common problems that arise in lecturer-student and student-student interactions.<br><br>
+                First, many students are hesitant to ask the professor a question in front of the entire class for fear of the question being deemed a “stupid” or “obvious” one.  This becomes especially evident in large auditorium-like lecture hall filled with upwards of 500 students. On the other hand, the professor also has a syllabus to adhere to and may not be able to answer every pertinent question that a student has during the lecture. We are faced with a duality where asking the professor questions can stop the momentum of the lecture and slow down the learning process, while not asking questions can leave the students lost and confused.<br><br>
+                Second, due to the large size of the lecture hall, students at the back usually have to yell out to make their voices heard by the instructor and the rest of class, and this literally denies access to asking questions in class for students with intrinsically low voices. Even though students could try to sit in the front to ensure their voices could be heard by the instructors for in-class interaction, it remains impractical for all other students who may not have the privilege of getting a front-row seat.<br><br>
+                Third, students may come up with some interesting questions that are out of the scope of the course in the middle of a lecture, so they feel a need to discuss with friends nearby in case they forget. This can be really disruptive for students sitting in their vicinity that are trying to listen to the lecture.<br><br>
+            </p>
+            <!--Personas Development-->
+            <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="persona"></a>Personas Development</p>
+            <p style="text-align: left;">
+                The Young's task-based audience segmentation was employed in our effort to develop the personas for our project.  Three steps were performed in this practice: 1. Distinguish the tasks of target audience. 2. Group the tasks. 3. Name the groups. <br><br>
+                In the first place, we brainstormed all possible behaviors of students during a lecture, and we generated a list table of distinguishing behaviors:<br><br>
+            </p>
+            <img src="image/persona_list1.PNG"/><br><br>
+            <p style="text-align: left;">
+                Later, we grouped our duplicate and similar tasks, and we developed a table as follows:<br><br>
+            </p>
+            <img src="image/persona_list2.png"/><br><br>
+            <p style="text-align: left;">
+                For the second step, we tried to discover the pattern matching the various tasks and performers by making a matrix with all tasks in a header column and all potential performers in a header row. For each performer, we put an ‘x' in the cross section if there a match between tasks and performers, and afterwards the patterns revealed as we highlighted the similar rows . As a result, we generate a table as shown below:<br><br>
+            </p>
+            <img style="height:300px;" src="image/persona_list3.png"/><br><br>
+            <p style="text-align: left;">
+                In the last  step, we named the three different set of task chunks as follows: <br><br>
+                <strong>Thinker</strong><br>
+                This type of student is characterized by thinking diligently. Owing to their active thinking, they are likely to have already built solid understanding of the course material before class. Most of the time, they won't be uncomfortable with any of the course material. Even if they are, they would prefer to work out the problem by thinking. Excelling in their studies, they'd often like to spare time and help other students in need, either in person or online.<br><br>
+                <strong>Loner</strong><br>
+                This type of  student is characterized by the independent nature of their actions. They have a tendency to get prepared for lectures, which usually ensures that they are equipped with knowledge to solve course-related problems.  During a lecture, instead of interacting with others, they prefer to find out the answers on their own, and it can be by referring textbook, searching online, by posting questions on the forum, or by approaching the instructor after the class. <br><br>
+                <strong>Schmoozer</strong><br>
+                This type of student is characterized by their social and energetic nature. Due to their commitment to social events, they are not likely to put much effort into preparing before a lecture.Due to this lack of preparation, they can easily get confused during lectures. They are passionate about interacting with other people, and they tend to find out answers by discussing either with colleagues or instructors when they encounter any problems. <br><br>
+            </p>
+            <!--Users Scenario-->
+            <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="userSce"></a>Users Scenario</p>
+            <p style="text-align: left;">
+                Use Case 1: Start application<br>
+            <table>
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        User wants to use the application
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        User Action
+                    </td>
+                    <td>
+                        1.User turns on device<br>
+                        2.User looks for the icon of the app<br>
+                        3.User taps the icon<br>
+                        4.User is prompted to enter sign-in information<br>
+                    </td>
+                </tr>
+            </table>
+            </p>
+            <p style="text-align: left;">
+                Use Case 2: Connect to a classroom <br>
+            <table>
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        User wants to connect to a classroom
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        User Action
+                    </td>
+                    <td>
+                        1.User clicks on the "Connect" button<br>
+                        2.User enters the class room ID given by their professor<br>
+                    </td>
+                </tr>
+            </table>
+            <p style="text-align: left;">
+                Use Case 3: Ask for a clarification on a programmed topic
+                <br>
+            <table>
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        User wants to ask a question related to the topics that the instructor has programmed into the bot
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        User Action
+                    </td>
+                    <td>
+                        1.User navigates to the chatbot interface<br>
+                        2.User types a question whilst specifying topic<br>
+                        3.Chatbot returns pertinent data associated to the topic<br>
+                        4.User is presented with an answer and prompted to make sure the answer is relevant<br>
+                        Yes: the query is resolved<br>
+                        No: User is given the option of asking for help from peers<br>
+                    </td>
+                </tr>
+            </table>
+            <p style="text-align: left;">
+                Use Case 4: Ask for a clarification on a topic that was not programmed
+                <br>
+            <table>
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        User wants to ask a question unrelated to the topics that the instructor has programmed into the bot
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        User Action
+                    </td>
+                    <td>
+                        1.User navigates to the chatbot interface<br>
+                        2.User types a question whilst specifying topic<br>
+                        3.Chatbot cannot find data and attempts to scrape information off a website like Wikipedia.<br>
+                        4.User is presented with an answer and prompted to make sure the answer is relevant<br>
+                        Yes: the query is resolved<br>
+                        No: User is given the option of asking for help from peers<br>
+                    </td>
+                </tr>
+            </table>
+            <p style="text-align: left;">
+                Use Case 5: Ask a public question
+                <br>
+            <table>
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        A user wants to ask a question to the class
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        User Action
+                    </td>
+                    <td>
+                        1.User selects the appropriate forum thread<br>
+                        2.User selects “create new post”<br>
+                        3.User fills in title and description sections and provides topic tags<br>
+                        4.User clicks on the “post” button<br>
+                    </td>
+                </tr>
+            </table>
+            <p style="text-align: left;">
+                Use Case 6: Reply to a public question
+                <br>
+            <table>
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        A user wants to ask a question to the class
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        User Action
+                    </td>
+                    <td>
+                        1.User selects the appropriate post<br>
+                        2.User selects “reply to post”<br>
+                        3.User writes their reply<br>
+                        4.User clicks on the “post” button<br>
+                    </td>
+                </tr>
+            </table>
+            <p style="text-align: left;">
+                Use Case 7: Ask the teacher for help by flagging a question
+                <br>
+            <table>
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        A user wants to request clarification from the teacher
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        User Action
+                    </td>
+                    <td>
+                        1.User selects the appropriate post<br>
+                        2.User clicks the "flag" button which puts a flag on all tagged topics<br>
+                        3.When a topic receives a lot of flags the application sends an interrupt request to the lecturer.<br>
+                    </td>
+                </tr>
+            </table>
+            <p style="text-align: left;">
+                Use Case 8: Ask the teacher for help by pressing the interrupt button
+                <br>
+            <table>
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        A user wants to ask a question to the class
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        User Action
+                    </td>
+                    <td>
+
+                        When a large portion of the class clicks on the "I don't understand" button, the teacher receives an interrupt request<br>
+                    </td>
+                </tr>
+            </table>
+            </p>
+            <!--Relevant Products-->
+            <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="relatedProduct"></a>Relevant Products</p>
+            <p style="text-align: left;">
+                1)Learning Catalytics<br>
+                Learning Catalytics is a student response tool available in laptop, smartphone and tablet, where can be used in class. The class instructor's can create a specific section for the course with generated ID and student will join the session by typing the given ID. This tool is widely used for in-class exercise, quizzes and, most importantly, group working. After student selected the seat location, the system can automatically generate team according to it.<br>
+                2)CourseQ<br>
+                CourseQ is an online chatbot build specific for class usage. For class instructor, it is a tool to ask the whole class question and view students' response in organized form.  For student, they can discuss the question within classroom and get response from their peers.<br>
+            </p>
+            <!--Products Comparison-->
+            <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="compareProduct"></a>Products Comparison</p>
+            <p style="text-align: left;">
+                The main difference between the product above and our product is:<br><br>
+                1)Learning Catalytics mainly provide the convenient between instructor and students, but not between peer to peer. Although it can generate student into groups, it does not provide any interface of communication for groups. The TA chatbot provides a platform to peer-to-peer conversation and it can also filter out profanity from students intelligently which Learning Catalytics cannot. Also, our chatbot automatically answers questions from student so it provide convenience to the professor.<br><br>
+                2)For CourseQ, it provides both peer-to-peer and professor-to-student interface; however, there is no feedback of peer-to-peer conversation to the professor. For our product, instructor can pre-upload the topics in order to let student discuss and prepare about it before the class. For a teacher, the value of time is everything. Thus, our chatbot will only send an interrupt request to professor if there is a question that majority of the students don't understand about it.<br><br>
+                For the TA chatbot we designed, when students are asking question in chatbot, there will be a “i don't understand either” button under every post, if over 10% students of the class clicked the button under the post, then this question will be addressed to professor and he will respond immediately during the class. Therefore, the design of our chatbot act as a well-designed bridge between professor and student. Although the conversation in peer-to-peer option is mainly happened among student, but the professor will constantly get the feedback from what is students' conversation about in order to get to know their student well.<br><br>
+            </p>
+            <img src="image/compare.png"/><br><br>
+            <p style="text-align: left;">
+                The picture above shows the operating process of our chatbot, the products already exist can mostly do the operations with “black arrow”, but our team improve the system to next level by the operation in “red arrow”, which makes the conversation relationship between professor and student more complete.
+            </p>
+            <!--High-Level Design-->
+            <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="highlevel"></a>High-Level Design</p>
+            <img src="image/HighLevelDesignDiagram.png"/><br><br>
+            <p style="text-align: left;">
+                A chatbot builder application. written in Java, will be used by the lecturer or developer to set up topics they anticipate may arise in a question during a following lecture. This application will make use of Amazon Lex's Model Building API to create chatbots. In order to maintain context for previous classes, this application will be capable of dynamically updating previous versions of the chatbot used for that course. Lecturers will then be able to set up a virtual classroom on a separate application and deploy their chatbots there. This virtual classroom will be a messaging platform written in Java and JavaScript for mobile and web applications respectively. Students will be able to interact with the chatbot on this application. The chatbot will use Amazon Lex's integrated natural language understanding to detect specific utterances that match what the lecturer anticipated and will return any associated information using Amazon's server-less compute service Lambda.<br><br>
+            </p>
+            <!--Feasibility Justification-->
+            <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="feasibility"></a>Feasibility Justification</p>
+            <p style="text-align: left;">
+                There are two major components to this project: the chatbot builder application and the messaging application. With Amazon Lex handling natural language understanding and chatbot creation, the bulk of the back-end work is already taken care of. The challenge is in the design of an easy to use GUI where the lecturer can create a new chatbot tailored to their course material or update an existing chatbot without having to go through the hassle of learning Amazon Lex and writing Amazon Lambda call-back functions.<br><br>
+                Thankfully Amazon Lex chatbots are readily deployable on android applications and there is a fair chunk of documentation made available by Amazon. What is left after is developing a messaging application where the users can interact with the chatbot. As a failsafe, Amazon Lex also deploys to Facebook Messenger. This remains a possibility if the custom messaging platform proves to be unfeasible in the given time constraints.<br><br>
+                We believe we have the sufficient programming and development experience for this project, as one of us has already fiddled around with Amazon Lex. Furthermore, the entire group is comfortable and has prior experience working with Java.<br><br>
+                We estimate that we'd need 5-6 weeks to develop a working chatbot builder and messaging platform, and another 3-4 weeks for user interface design and testing of the applications.<br><br>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $('.collapse-button').click(function(){
+        $('.small-nav').show();
+    });
+    $('.close-button').click(function(){
+        $('.small-nav').hide();
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $(window).bind('scroll', function() {
+            if ($(window).scrollTop() > 74) {
+                $('#contentNav').addClass('fixed');
+            }
+            else {
+                $('#contentNav').removeClass('fixed');
+            }
+        });
+    });
+</script>
+</html>

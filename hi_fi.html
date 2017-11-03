@@ -1,0 +1,374 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <!--this page-->
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel = "stylesheet" type = "text/css" href = "css/hi_fi.css" />
+    <title>Hi-fi</title>
+</head>
+<body>
+<div class="container-fluid wrap">
+    <div class="container-fluid header">
+        <nav class="navbar">
+            <ul>
+                <div class="col-lg-2 col-md-12">
+                    <h3 style="padding:0px 15px;float:left"><img src="image/easyClass_icon.png" style="height: 50px;"/></h3>
+                    <button class="hidden-lg col-md-2 col-sm-2 col-xs-2 collapse-button" style="float:right;padding-top: 20px;" type="button" id="c-button">
+                        <img src="image/leaf.ico" style="height:50px;"/>
+                    </button>
+                </div>
+                <li class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                    <a class="link-1" href="index.html">Home</a>
+                </li>
+                <li class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                    <a class="link-1" href="proposal.html">Project Proposal</a>
+                </li>
+                <li class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                    <a class="link-1" href="lo_fi.html">Lo-Fi</a>
+                </li>
+                <li class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                    <a class="link-1" href="hi_fi.html">High-Fi</a>
+                </li>
+                <li class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                    <a class="link-1" href="feedback.html">Feedback</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav" style="text-align: center;">
+                    <span class="close-button" title="Close Modal">&times;</span>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="proposal.html">Project Proposal</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="lo_fi.html">Low-fidelity Prototype</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="#">Test Plan and Evaluation</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="#">High-fidelity Prototype</a>
+                </li>
+                <li class="hidden-lg col-md-12 col-sm-12 col-xs-12 small-nav">
+                    <a href="#">Formative Feedback</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="container-fluid" style="text-align:center;">
+        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3 contentDiv" id="contentNav" style="padding: 10px 0px">
+            <div style="padding:30px 0px;">
+                <a href="#usermanual" style="color: white;">User Manual</a>
+            </div>
+            <div class="even" style="padding:30px 0px;">
+                <a href="#designEvo" style="color: darkgray;">Design Evolution</a>
+            </div>
+            <div style="padding:30px 0px;">
+                <a href="#proto" style="color: white;">Prototype Implementation</a>
+            </div>
+            <div class="even" style="padding:30px 0px;">
+                <a href="#userPop" style="color: darkgray;">User Population</a>
+            </div>
+            <div style="padding:30px 0px;">
+                <a href="#userGoal" style="color: white;">Usability Goals</a>
+            </div>
+            <div class="even" style="padding:30px 0px;">
+                <a href="#test" style="color: darkgray;">Usability Test Procedures</a>
+            </div>
+            <div style="padding:30px 0px;">
+                <a href="#report" style="color: white;">Reporting</a>
+            </div>
+            <div class="even" style="padding:30px 0px;">
+                <a href="#usaeva" style="color: darkgray;">Usability Evaluation</a>
+            </div>
+        </div>
+        <div class="col-lg-8 col-lg-push-3 col-md-8 col-md-push-4 col-sm-9 col-sm-push-3 col-xs-7 col-xs-push-5 paragraph" id="parag" style="padding:2% 10%;">
+            <h2>High-Fidelity Prototype</h2>
+            <hr>
+            <!--user manual-->
+            <br><br>
+            <p style="text-align: left;font-size: 25px;font-weight: bold;"><a name="usermanual"></a>User Manual</p>
+            <div style="padding: 20px 0px"><a href="doc/User-Manual.pdf"><img src="image/user_manual.png"/><p>User Manual</p></a></div>
+            <!--Problem-->
+            <p style="text-align: left;font-size: 25px;font-weight: bold;"><a name="designEvo"></a>Design Evolution</p>
+            <p style="text-align: left;">
+                We received a lot of eye-opening feedback from our paper prototypes which brought upon the need for us to get together and make some design changes in order to address the problems we found and bring the best of each paper prototype into one cohesive design.
+                <br><br>
+                The aforementioned changes are: <br><br>
+                <b>1. Buttons are distinguishable</b><br>
+                Many of our test subjects reported having trouble distinguishing between buttons and titles and were unsure where to click. This was in part due to the nature of our paper prototype but we wanted to make sure that this problem doesn’t arise in the computer prototype nonetheless.  In order to address this, we decided that each clickable or interactive object should either be underline, outlined or have a colored background to set it apart from regular text.
+                <br><br>
+                <b>2. Removal of repetitive buttons</b>
+                <br>
+                Indicating that you don’t understand a topic or that you have a question seemed a tad redundant. In both cases, you are trying to request the instructor’s help. Hence, we decided to remove the “I have a question” in favor of the “I don’t understand” option.
+                <br><br>
+                <div class="dc_figure" style="text-align: center">
+                    <img style="height: 400px;" src="image/hi_fig1.jpg"/>
+                    <img style="height: 400px;" src="image/hi_fig2.png"/>
+                </div>
+                <p style="text-align: left">
+                <br>
+                <b>3. Chat-based instead of Forum-based </b>
+                <br>
+                We decided to opt for the chat-based system from paper prototype 1 instead of the forum-based system designed in prototype 2. The reason for this being that we wanted to enforce live interaction during the lecture. The nature of the forum doesn’t really bring upon a sense of immediacy; you must refresh the page to see new comments or posts and you can always reply later.
+                <br><br>
+                    <div>
+                        <img style="height: 400px;" src="image/hi-fig3.png"/>
+                    </div><br>
+            <p style="text-align: left;">
+                <b>4. The Instructor does not have direct access to the chat rooms</b>
+                <br>
+                We wanted to keep as much distraction away from the instructor as possible and also maximize the student's’ privacy. In order to make sure that students feel comfortable asking their questions, not only will their identity remain anonymous, but the instructor won’t actually see their question unless it becomes popular. We decided that instead of a platform with chat rooms, the instructor would be able to see the top questions (ones that are of the highest concern to students).
+                <br><br>
+                <div>
+                    <img style="height: 400px;" src="image/hi_fig4.png"/>
+                </div>
+            <br>
+            <p style="text-align: left;">
+                <b>5. Browser-based application instead of an Android application</b>
+                <br>
+                Due to the fact that the instructor would most probably prefer using this application on their personal computer or laptop and due to feasibility concerns, we decided to implement a responsive web-based application instead of having to implement two separate applications (Windows and Android).
+                <br><br>
+                <b>6. Account-based system instead of a Session-based system</b>
+                <br>
+                A session-based login system presents many privacy concerns. With the design in paper prototype #2, one of the test subjects mentioned the possibility of identity theft and claimed that he wouldn’t feel safe using that system. In fact, the problem is that your name is common knowledge to your peers and if they so pleased, they could enter your name instead of theirs and gain access to the EasyClass platform under your name. To avoid these problems, we decided to implement an account-based system which requires the creation of a username and password and is backed by a robust account recovery system.
+                <br>
+                <div>
+                    <img style="height: 400px;" src="image/hi_fig5.png"/>
+                </div>
+              <br>
+                </p>
+            </p>
+            <!--Prototype-->
+            <p style="text-align: left;font-size: 25px;font-weight: bold;"><a name="proto"></a>Prototype Implementation</p>
+            <div style="padding: 20px 0px"><a href="https://share.proto.io/9AGB3V/"><img src="image/phone.png"/><p>Computer Prototype</p></a></div>
+            <!--User population-->
+            <p style="text-align: left;font-size: 25px;font-weight: bold;"><a name="userPop"></a>User Population</p>
+            <p style="text-align: left;">
+            First of all, we have a recap for the three personas we developed in our project proposal:<br><br>
+            <b>1.Thinker</b><br>
+            This type of student is characterized by thinking diligently.Excelling in their studies, they'd often like to spare time and help other students in need, either in person or online.
+            <br><br>
+            <b>2.Loner</b><br>
+            This type of student is characterized by the independent nature of their actions. During a lecture, instead of interacting with others, they prefer to find out the answers on their own.
+            <br><br>
+            <b>3.Schmoozer</b><br>
+            This type of student is characterized by their social and energetic nature. They are passionate about interacting with other people, and they tend to find out answers by discussing either with colleagues or instructors when they encounter a problem.<br><br>
+            However, for the usability testing purpose, we will focus our target population on Loner and Schmoozer this two exclusive user segments in the student group, which, based on our previous experiences of usability testing of low-fidelity prototypes, are easily identifiable from pre-test questionnaires, and in the meantime identification of the Thinker user segment proved to be involved. For this account, we later decided to rename our focused student group as passive and active student group respectively, and it should be more straightforward for the examination group to comprehend and identify our user population. Moreover, since our application also includes an interface for instructors to complete the communication channels, such a user segment therefore also comprises our target population. Identification of these three user segments, passive and active student group, and the instructor group, can help us analyze the testing results while taking into account their background information, so we can make corresponding improvements according to their feedback.
+            <br><br>
+            </p>
+            <!--user goal-->
+            <p style="text-align: left;font-size: 25px;font-weight: bold;"><a name="userGoal"></a>Usability Goals</p><br>
+            <p style="text-align: left;">
+                <b>1. The application should be easy to learn</b><br>
+                Quantitative measurement: Allow the test users inspect the prototype on they own to get a grasp of the main features of the application before prompting them to perform specific test tasks. Log how long it takes for them to confirm their readiness for following testing. We would expect a maximum of 5 minutes for the users to learn about the main features of the prototype .
+                <br><br>
+
+                <b>2. The application should be easy to operate</b><br>
+                Quantitative measurement: Observe the users as they operate the system and take note of when they unintentionally perform an action. Log all these mistakes. We would expect a test subject to make less than 5 mistakes to meet this usability goal .
+                <br><br>
+
+                <b>3. The application should be satisfying to operate</b><br>
+                Quantitative measurement: Observe the users as they operate the system and take note of when they express frustration or dissatisfaction with a certain feature. Log the number of times they felt negatively towards the application’s features. Collect user satisfaction data from the post-test questionnaire. We would expect a maximum of 3 times users have negative feelings and a minimal numerical grading of 4 out of 5 to meet this usability goal.
+                <br><br>
+                <b>4. The application should not be distracting</b><br>
+                Quantitative measurement: Collect data from the post-test questionnaire pertaining to the numerical degree to which the user felt distracted while using the application. We would expect a maximal numerical scaling of 2 out of 5 for each test subject agrees the application prototype is distracting in class to meet this usability goal.
+                <br><br>
+            </p>
+            <!--Products Comparison-->
+            <p style="text-align: left;font-size: 25px;font-weight: bold;"><a name="test"></a>Usability Test Procedures</p>
+            <p style="text-align: left;">
+                This section contains critical information for a team to carry out the usability testing independently. Prior to the specific testing procedures, it is important to first clarify the following questions that any testing team may have:<br><br>
+                <b><i>How many examiners are required for the testing?</i></b><br>
+                The minimum is two, so the team will have at least one person to direct the testee through the test, while the other one can stand by and note down testing data as an observer.
+                <br><br>
+                <b><i>What equipment will the examiners need?</i></b><br>
+                Make sure you have the following items to be ready for testing:<br>
+
+                - A smartphone with APP proto.io installed OR a laptop with access to the Internet<br>
+                - A filming device to record the testing process, e.g. another smartphone, or a camera<br>
+                - A stopwatch to time testees finishing their tasks<br>
+                - Pre-test questionnaires (Provided)<br>
+                - Post-test questionnaires (Provided)<br>
+                - Data sheets (Provided)<br>
+                <br>
+                <b><i>How should the testing prototype be handled?</i></b><br>
+                The test subjects can work with either a smartphone capable of running App proto.io. or a laptop with Internet access.  For subjects working with the App on a smartphone, they can interact with the application by what they usually do with a smartphone: click and swipe. For subjects working with the web application on a laptop, they can interact with the prototype by clicking on a touchscreen or by clicking using a mouse.
+                <br><br>
+
+                <b><i>Is there anything examiners should avoid doing?</i></b><br>
+                The examiners should avoid overly interacting with the testees, or answer questions that are related to the functionality of the application based on the interface. Otherwise, the results will not show the true understanding of the user.
+                <br><br>
+
+                <b><i>What should the examiners avoid telling the test subjects?</i></b><br>
+                The examiners should avoid telling the testees whether they did right or wrong, or informing them how to perform a specific task, as the examiners are supposed to stay objective throughout the testing.
+
+                <br><br>
+                Next, when the examination team is ready to conduct the testing, they can proceed as follows:<br>
+                <br>
+                First, you can start the testing with a brief introduction. Generally speaking, you can begin with anything you feel appropriate for introduction of testing to the test subject, and here is a sample for your reference:
+                <br><br>
+                <i>“Hello [subject_name],<br>
+                First, I’d like to thank you for your time today. As you have already been made aware, you’ll be
+                testing an interactive peer-to-peer classroom application using paper models. This may seem
+                strange but, the data collected helps us figure out what alterations we can make to our design to
+                better improve our system. With this end in mind, I’d like to ask you to be as vocal as possible and
+                voice your opinions during the test. Don’t be afraid to let us know if you think an idea is awful;
+                honesty is key. Also, please keep in mind that we are evaluating the competency of our designs
+                and not that of you.
+                Alright, before we start testing, I’ll need you to fill out a short little questionnaire right before we
+                    start.”</i>
+                <br><br>
+                And then you can pass the test subjects the pre-test questionnaire, after which you will let them to inspect the prototype on their own to learn about the features and functionalities that the prototype provides and inform them that they should confirm their readiness when they are done. After the test users confirm with you their completeness of learning, you can prompt them with real life scenarios, e.g. the professor just explained a concept and the test subject feels confused. Various scenarios should be provided to cover all of the app’s functionalities. You should be aware that starting from test subjects inspecting the prototype, some quantitative measurements are entailed as testing data. It is also important to note that while you are prompting the test subjects to proceed, make sure you are telling them what to do, rather than how to do it.
+                <br><br>
+                Regarding data collection during the testing, there are following three things you are supposed to note down:
+                <br>
+                1) Test users’ performances in quantitative measurements associated with the usability goals.
+                <br>
+                2) Test users’ comments, anything meaningful they said or expressed of relevance to the prototype.
+                <br>
+                3) Your observations of any problems encountered by the test users or additional feedback that might be useful.
+                <br><br>
+                At the end of testing, you will pass the test subjects post-test questionnaires, and collect them back for later reporting.
+                <br><br>
+            </p>
+            <!--reporting-->
+            <p style="text-align: left;font-size: 30px;font-weight: bold;"><a name="report"></a>Reporting</p>
+            <p style="text-align: left;">
+                Regarding records and reports for the examination group, there are following tasks to be accomplished to make a comprehensive and useful reporting: <br>1. Film the testing process <br>2. Collect information from questionnaires from testees before and after the testing <br>3. Note down observations and comments of testees. <br><br>For the testing report, therefore, we would expect the following items to be handed over: <br>1. Videos of testing process <br>2. Completed pre-test and post-test questionnaires  <br>3. Completed data sheet.
+                <br><br>
+                For the convenience of the examination team, we attach all relevant documents for reporting at the end of this section, and before the team reach them, we have an elucidation of reporting as follows:
+                <br><br>
+                1. Filming is of significant importance for testing records, as it enables testers to record the testing process in a straightforward way and produces a reviewable content which permits tracing back testing details for further analysis.
+                <br><br>
+                2. Questionnaires help collect information or feedback from the testees. Pre-test questionnaire helps us know more the testees’ background, which is conducive to post-test data analysis; for example, if the subject select “Try to figure it out on my own ” when he or she has a question in class, this might implicate that the subject is the Loner type in our user population. Post- test questionnaire also help collect qualitative data from the testees which will be the premise of usability evaluation for our prototype.
+                <br><br>
+                3. Testing data in form of observations and comments of testees also enables data analysis after testing. For example, a testee’s comment “I think this feature just hinders me from completing the task” obviously suggests that the testee thinks the application could be better without that feature, and then it would be within our consideration whether to retain or discard that feature. Therefore, a examiner is expected to record any constructive and meaningful comments that testees make during the testing, as well as observation of any irregular actions or behaviors of testees in the process of completing the test tasks along with the relevant testing results, such as testees’ completeness on test tasks and time elapsed for them to complete the tasks.
+                <br><br>
+            </p>
+            <div class="col-lg-12" style="padding: 25px 0px;">
+                <a href="doc/(instructor)%20Pre-test%20questionnaire%20-%20Google%20Forms.pdf" class="col-lg-3">
+                    <img  class="doc_icon" src="image/i3.png"/>
+                    <p>1. Pre-test Questionnaire (Instructor)</p>
+                </a>
+                <a href="doc/(student)Pre-test%20questionnaire%20-%20Google%20Forms.pdf" class="col-lg-3">
+                    <img  class="doc_icon" src="image/i6.png"/>
+                    <p>2. Pre-test Questionnaire (Student)</p>
+                </a>
+                <a href="doc/Post-test%20questionnaire%20-%20Google%20Forms.pdf" class="col-lg-3">
+                    <img  class="doc_icon" src="image/i1.png"/>
+                    <p>3. Post-test Questionnaire</p>
+                </a>
+                <a href="doc/Data%20sheet%20-%20Google%20Forms.pdf" class="col-lg-3">
+                    <img  class="doc_icon" src="image/i5.png"/>
+                    <p>4. Data Sheet</p>
+                </a>
+                </div>
+            <!--Feasibility Justification-->
+             <br><br>
+            <p class="col-lg-12" style="text-align: left;font-size: 25px;font-weight: bold;"><a name="usaeva"></a>Usability Evaluation</p>
+            <p class="col-lg-12" style="text-align: left;">
+                At the end of the usability testing, we would like you to conduct an heuristic evaluation on the prototype in reference to  heuristic evaluation principles we developed based on Nielsen’s “How to Conduct a Heuristic Evaluation” and Nielsen’s 10 Usability Heuristics for User Interface Design. You will find the methodology to conduct such an evaluation at the latter of this section, and before that we have following evaluation principles that may guide you through the process, and it is also important to note that these principle are for your references only, and you are absolutely welcome to take into account additional usability principles that are applicable for a specific property of the prototype interfaces.
+                <br><br>
+                <b>Heuristics:</b><br><br>
+                1. This system keeps me oriented.<br>
+                Justification: As our application involving switching between different interfaces for various functionalities, our design would fail completely if users fail to complete their tasks because they get lost during these switchings.
+                <br><i>
+                -“Visibility of system status (responsiveness )
+                <br>
+                The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.”
+            </i><br><br>
+                2. I can draw on real-life experiences to interact with this system.<br>
+                Justification: For our application, we aim to provide a generally acceptable and understandable system design to users so they work with our system efficiently, and the most familiar things to them are undoubtedly their life experiences.
+                <br><i>
+                -“Match between system and the real world
+                <br>
+                The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.”
+            </i><br><br>
+                3. I feel in control working with this system.<br>
+                Justification: Since our main user population is students, we definitely need to grant them freedom so they won’t dislike our application because they feel constrained.
+                <br><i>
+                -”User control and freedom
+                <br>
+                Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.”
+            </i><br><br>
+                4. This system is easy to understand for its consistency.<br>
+                Justification: Again, we aim to provide a generally acceptable and understandable system design to users to help them work efficiently, and consistency is obviously conducive to that.
+                <br><i>
+                -”Consistency and standards
+                <br>
+                Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.”
+            </i><br><br>
+
+                5. This system prevent my errors.<br>
+                Justification: Every human-being makes errors. Since our main users are students characterized by emotionality, our design should help them avoid errors so they won’t get frustrated with our system and leave off using it.
+                <br><i>
+                -”Error prevention
+                <br>
+                Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.”
+            </i><br><br>
+
+
+                6. This system looks agreeable by its simple design.<br>
+                Justification: First we ought to ensure our design conforms to general aesthetic rules so it looks attractive to our target population, and also because it’s an in-class application, our design should be simple and not distract students from class.
+                <br><i>
+                -”Aesthetic and minimalist design
+                <br>
+                Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.”
+            </i><br><br>
+
+                7. I get helps from the system on how to use it.<br>
+                Justification: Every experienced user starts as a novice. Again, Since our main users are students characterized by emotionality, our design shouldn’t frustrate them when they couldn’t a specific feature of our system and leave off using it. What we should do is providing helps for them.
+                <br><i>
+                -“Help and documentation
+                <br>
+                Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.”
+                </i><br><br>
+
+
+
+                <b>Methodology:</b><br><br>
+
+                Before the evaluation, ensure the evaluation is performed by an individual team member who will inspect the interfaces alone during the process, and the overall evaluation of the prototype should be conducted by multiple evaluators individually, i.e. one is not enough.
+                <br><br>
+                During the evaluation, although evaluators can evaluate the interfaces in any way they are comfortable with, it is recommended to go through the interfaces at least two, one of which should help them acquire the general idea of the system, and help them understand the workflow and interaction of the prototype, with the second pass allowing them to focus on specific properties of interfaces and evaluate them.
+                <br><br>
+                After the evaluation, we suggest all the team members gather together and conduct a debriefing session to discuss and combine the individual evaluation results. The output from this heuristic evaluation should be a list of usability problems in the prototype interfaces with references to those usability principles that has been violated. We also expect the evaluating team could make a list of usability problems they identified with explanations.
+                <br><br>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    $('.collapse-button').click(function(){
+        $('.small-nav').show();
+    });
+    $('.close-button').click(function(){
+        $('.small-nav').hide();
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $(window).bind('scroll', function() {
+            if ($(window).scrollTop() > 74) {
+                $('#contentNav').addClass('fixed');
+            }
+            else {
+                $('#contentNav').removeClass('fixed');
+            }
+        });
+    });
+</script>
+</html>
