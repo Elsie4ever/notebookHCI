@@ -88,50 +88,143 @@
             <br>
             <!--Testing-->
             <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="testing"></a>Testing</p>
+            <p style="text-align: left;font-weight: bold;color: grey">
+                1) Usability testing summary
+            </p>
             <p style="text-align: left;">
-                Recall that during in our observations on campus, the interaction problems we identified can summarized as: first sometimes students' questions in class might not get recognized by the instructors, second due to the physical limitations of spacious lecture halls, it's difficult to ensure students' voice to be heard by everyone else in the room during a lecture, and the last sometimes students' verbal interactions can be distractive for the other. To solve all these problems, we realized that what we can do is to build up an application capable of setting up communication channels electrically between instructors and students, and students and students. Bearing such an objective in mind, we came up the following design concepts that serve our purpose:<br><br>
-                <div class="dc_figure">
-                    <img class="dcimg" src="image/dc1.png"/>
-                    <img class="dcimg" src="image/dc2.png"/>
-            <p>Figure 1 & 2: Android UI for student and instructor</p>
-        </div>
+                After the usability testing, we had datasheet that organized all the testing information as follows:<br>
+            </p>
+            <p style="text-align: left;font-weight: bold;color: grey">
+                2) Heuristic evaluation summary
+            </p>
+            <p style="text-align: left;">
+                At the end of our individual heuristic evaluation of the design team prototype, we gathered together and had a debriefing session to combine our results. The output is a list of usability problems we identified as follows:<br>
+                <i>1.  Visibility of system status: the system does not display the current or next player in the system status</i><br>
+                <i>2.	User control and freedom: the system does not allow a marked "exit" to quit the unwanted state during a game.</i><br>
+                <i>3.	Match between system and the real world: the system does not allow users to modify the existing groups, whereas in reality we can definitely make changes to existing organization.</i><br>
+                <i>4.  Error prevention: there is not a confirmation option for users in case they accidentally touch the “back” button and unintentionally exit the game.</i><br><br>
+
         <!--Results and Analysis-->
         <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="reAndAna"></a>Results and Analysis</p>
+            <p style="text-align: left;">
+                We tested 2 groups of 3 players and took note of the quantitative measurements associated to the benchmarks provided. We divided each usability test into two phases: Setup (Group Creation/Selection, Gameplay Mode Selection, Topic Selection) and Gameplay. Each phase presented its own usability issues.<br><br>
+            </p>
+            <p style="text-align: center;font-weight: bold;"><i>Test Group 1</i></p>
+            <p style="text-align: center;text-decoration: underline">SETUP</p>
+            <p style="text-align: left;">
+                Setup was quite problematic for Test Group 1. As they clicked on the “CREATE NEW GROUP” button, the three members proceeded to add their names to the group. The third member could not see that his name was added to the group so he tried entering his name again. (see picture 1) After a few seconds, Player 2 realized that it’s possible to scroll down to see the other group members. Player 3 proceeded to say, “That was not obvious at all”. They then noticed that Player 3’s name had been added twice (see picture 2) and there were also extra blank slots in between Player 2 and Player 3.(see picture 3) It appears that players with no name had been initialized accidentally with an unintentional press of the “ADD” button. With no available option to correct these 2 mistakes, they were forced to hit the back button and return to the main menu. This time, upon trying to click on “CREATE NEW GROUP”, the app remained unresponsive. The team was forced to exit the application and start again. As the team was about to select their topic, the app crashed and showed an error screen (see picture 4), causing the team to have to start over from the setup screen. They carefully went through the group creation process once again and managed to complete the setup.
+            </p><br>
+            <p style="text-align: left;text-decoration: underline">Quantitative measurements:</p>
+            <p style="text-align: left;">
+                NUMBER OF ERRORS: 2 (excluding crashes)<br>
+                SETUP TIME: 1 minutes 47 seconds<br>
+                SETUP MODIFICATIONS: 1 (2 if you count the topic selection crash)<br>
+            </p><br>
+            <div class="">
+                <img style="height: 400px;border: 1px solid black" src="image/image1.jpg"/>
+                <img style="height: 400px;border: 1px solid black" src="image/image2.jpg"/>
+                <img style="height: 400px;border: 1px solid black" src="image/image5.jpg"/>
+            </div><br>
+            <p style="text-align: center;text-decoration: underline">GAMEPLAY</p>
+            <p style="text-align: left;">
+                The gameplay also had its fair share of flaws. When the team finally managed to select a topic and play the game, the first 6 turns went back and forth between Player 1 and Player 2, leaving the group very confused. Player 3, feeling rather irritated said “Is it ever going to be my turn?”. The game then proceeded to ask Player 3 a question 3 times in a row resulting in an awkward experience where Player 3 was told to read questions out loud to himself and pass the phone to himself. After 1 playthrough , the time tried to select a different subject and were greeted with blank screen (see picture 5) forcing them to close the app. The teams unanimously agreed that they found the experience to be “disjointed and weird”.
+            </p><br>
+            <p style="text-align: left;text-decoration: underline">Quantitative measurements:</p>
+            <p style="text-align: left;">
+                TOTAL NUMBER Of TURNS: 9<br>
+                TURN ORDER: P1-P2- P1-P2- P1-P2-P3-P3-P3<br>
+                GAME DURATION: 3 minutes 30 seconds<br>
+            </p><br>
+            <div class="">
+                <img style="height: 500px;border: 1px solid black" src="image/image4.jpg"/>
+                <img style="height: 500px;border: 1px solid black" src="image/image3.jpg"/>
+            </div><br>
+            <p style="text-align: center;font-weight: bold;"><i>Test Group 2</i></p>
+            <p style="text-align: center;text-decoration: underline">SETUP</p>
+            <p style="text-align: left;">
+                Setup did not fair much better with Test Group 2. The group was puzzled by contents of the “USE EXISTING GROUP” page. Collectively, they asked “What are those existing groups? We never created them.” As they clicked on the “CREATE NEW GROUP” button, the three members proceeded to add their names to the group. After creating a group, they asked “What’s the difference between the “INDIVIDUAL” and “TEAM” game modes?” .They were prompted to select a topic. The app then crashed (see picture 4) leaving everyone very confused. They started again, reached the same topic selection page only to have the app crash on them a second time. “Why does the program freeze?” they asked. They went through the setup one last time and managed to start a game.
+            </p><br>
+            <p style="text-align: left;text-decoration: underline">Quantitative measurements:</p>
+            <p style="text-align: left;">
+                NUMBER OF ERRORS: 0 (excluding crashes)<br>
+                SETUP TIME: 1:02 seconds<br>
+                SETUP MODIFICATIONS: 0 (2 if you count the topic selection crashes)<br>
+            </p><br>
+            <p style="text-align: center;text-decoration: underline">GAMEPLAY</p>
+            <p style="text-align: left;">
+                When the team finally managed to select a topic and play the game, they found that 6 turns were given to player 1, 4 to player 2 and only 2 to player 3. Upon successful completion of their first game, the team did not want to change topics nor play again.
+            </p><br>
+            <p style="text-align: left;text-decoration: underline">Quantitative measurements:</p>
+            <p style="text-align: left;">
+                TOTAL NUMBER Of TURNS: 12<br>
+                TURN ORDER: P1-P2-P1-P3-P1-P2-P1-P2-P1-P3-P1-P2<br>
+                GAME DURATION: 2 minutes 25 seconds<br>
+            </p>
+
         <!--Test Plan Critique-->
         <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="testPlan"></a>Test Plan Critique</p>
+            <p style="text-align: left;">
+                Regarding the test plan of the development team, we made a list of observed problems along with our suggestions or modifications to help them improve:
+            </p><br>
+            <p style="text-align: left;font-weight: bold;">1. Ambiguity in taking qualitative measurement data</p>
+            <p style="text-align: left;">
+                suggestion/modification: In design team usability goals 6 and 7, they noted that the positivity of feedback should be measured to evaluate whether the length of game is adequate and whether the application is a fun solution to help people interact. However, these two goals, in our point of views, are quantitatively measurable. For instance, we can time the overall game duration and evaluate whether the game is adequate in common sense, and we can ask testees their overall satisfaction of the game in numerical scale to evaluate their positivity of feedback.
+            </p><br>
+            <p style="text-align: left;font-weight: bold;">2. Awkward specifications of measurements & missing measurements</p>
+            <p style="text-align: left;">
+                suggestion/modification: in the Measurement part of the Test Procedure, the design team used the specifications of quantitative measurements they made in the Usability Goals section. We figure the Measurement part is where the design team specifies what kind of measurement they would expect the evaluation team to take during testing rather than repeating their usability goals.  Moreover, as we mentioned above, usability goals 6 and 7 are quantitatively measurable. Therefore, we suggest a modified measurement instruction as follow:<br>
+                a. Number of errors during setup<br>
+                b. Setup time<br>
+                c. Number of times the setup is modified<br>
+                d. Number of progression-related question asked<br>
+                e. Turns of each player<br>
+                f. Game duration<br>
+                g. Overall satisfaction in numerical scale (out of 5)<br>
+            </p><br>
+            <p style="text-align: left;font-weight: bold;">3. Lacking information collecting documents</p>
+            <p style="text-align: left;">
+                suggestion/modification: the design team has made several measurements and reporting requirements, it would for both good if the design team had provided available information collecting documents, such as questionnaires or data sheets. For design team, this will help to retain overall control over testing for them and produce a more organized and predictable results, which are conducive to post-test data analysis and application improvement. On the other hand, it would save effort to design the documents without profound understanding of neither the application or the testing for the evaluation team. For the testing, we made the data sheet to collect information during testing, and we would suggest the design team to do so on their own in the future.
+            </p><br>
+            <p style="text-align: left;font-weight: bold;">4. Insufficient heuristic evaluation criteria</p>
+            <p style="text-align: left;">
+                suggestion/modification: the design provided three valid heuristic principles for heuristic evaluation. From our standpoint, the more justified heuristics are applied to evaluate the prototype, the more valuable suggestions of improvement on design usability we can give,  and there are indeed several more usability heuristics that are applicable for this application in reference to Jakob Nielsen’s list of usability heuristics as follows:<br>
+                <br>a. Consistency and standards: this heuristic should be a general principle that literally all designs that involve human-computer interaction should conform to. Since the application of the design team involve switches between multiple windows along with different interface designs, users should not get disoriented and wonder whether different words, icons, or actions correspond to the same thing.<br>
+                <br>b. Error prevention: as the design team specified in their Usability goals section, errors that users made in the setup page are undesirable, and the setup should not be repeated for a group of users. To help the design team realize such usabilities goals, we believe evaluation feedback in terms of error prevention could be constructive for development of the their application.<br>
+                <br>c. Flexibility and efficiency of use: this heuristic is also important for the design team application evaluation, since they have already included a “Use existing group” functionality to accelerate the game setup. What is more, as the design team stated in the Usability goals section, they expect the application setup time is not too long, so having efficiency of use as a heuristic evaluation principle is advisable to help the design team meet their usability goal.  For these reason, we deem it necessary to add this heuristic to help the evaluation team conduct a more comprehensive evaluation on the application.<br>
+            </p>
+            <p style="text-align: left;font-weight: bold;">5. Lacking an heuristic evaluation methodology</p>
+            <p style="text-align: left;">
+                suggestion/modification: despite the three heuristic evaluation rules are provided for the evaluation team, the design team can become disoriented without a specific guidelines to conduct the evaluation, or the evaluation team might carry out the evaluation in a way that diverges from your expectation. For the sake of effective heuristic evaluation results, we would suggest you to spell out what you would the evaluation team to prepare or be aware of before the evaluation, what they are supposed to do during the evaluation, and what you would expect they should do after the evaluation or what kind of evaluation output they should provide for feedback. When we implemented the evaluation, we proceeded with the following method:<br><br>
+                a. Before the evaluation, we ensured the evaluation is to be performed by an individual team member who would inspect the interfaces alone.<br><br>
+                b. During the evaluation, we went  through the interfaces twice. We ensured that in the  first run we understood the workflow and interaction of the prototype, with the second pass focusing on specific properties of interfaces and evaluating them.<br><br>
+                c. After the evaluation, all of our team members gathered together and conducted a debriefing session to discuss and combine the individual evaluation results.<br><br>
+            </p>
         <!--Design Critique-->
         <p style="text-align: left;font-size: 20px;font-weight: bold;"><a name="designCritique"></a>Design Critique</p>
-        <div class="col-lg-12" style="padding: 25px 0px;">
-            <a href="doc/Observer%20briefing.pdf" class="col-lg-4">
-                <img  class="doc_icon" src="image/i3.png"/>
-                <p>1. Observer briefing</p>
-            </a>
-            <a href="doc/User%20introduction.pdf" class="col-lg-4">
-                <img  class="doc_icon" src="image/i6.png"/>
-                <p>2. User Introduction</p>
-            </a>
-            <a href="doc/pre_ques.pdf" class="col-lg-4">
-                <img  class="doc_icon" src="image/i1.png"/>
-                <p>3. Pre-test Questionnaire</p>
-            </a>
-            <a href="doc/Test%20script.pdf" class="col-lg-4">
-                <img  class="doc_icon" src="image/i5.png"/>
-                <p>4. Test Script</p>
-            </a>
-            <a href="doc/User%20test%20tasks.pdf" class="col-lg-4">
-                <img  class="doc_icon" src="image/i2.png"/>
-                <p>5. User Test Tasks</p>
-            </a>
-            <a href="doc/data_sheet.pdf" class="col-lg-4">
-                <img  class="doc_icon" src="image/i4.png"/>
-                <p>6. Data Sheet</p>
-            </a>
-            <a href="doc/Post-test%20questionnaire.pdf" class="col-lg-4 col-lg-push-4">
-                <img  class="doc_icon" src="image/i7.png"/>
-                <p>7. Post-test Questionnaire</p>
-            </a>
-        </div>
+            <p style="text-align: left;">
+                Based on the results of usability testing and heuristic evaluation, we spelled out a list of suggestions of improvement with respect to the application design:<br>
+            </p>
+            <p style="text-align: center;font-weight: bold;">Functionality issues:</p>
+            <p style="text-align: center;text-decoration: underline">1.Malfunction of “Existing group”.</p>
+            <p style="text-align: left;">
+                Suggestion of improvement: During our heuristic evaluation of the prototype, we noticed that even though we have created a new group, but the group actually will not appear in the “Existing group” which is originally designed to expedite the setup process as we suppose. But now it appears that every time users have to create a new group to start a game, and thus we suggest the design team to check software algorithms and fix the glitch.
+            </p><br>
+            <p style="text-align: center;text-decoration: underline">2.Crash at the “select a subject” window.</p>
+            <p style="text-align: left;">Suggestion of improvement: During our usability testing, we have ran across the problem that the program displayed a blank content of subject options at the “select a subject” screen, which essentially hampered our testing proceedings as the programs still failed after our two attempts to restart the program and rerun the game. This is exactly the situation the design team should avert for their final product. So we we suggest the design team to check pertaining software algorithms and improve the robustness of the program.</p><br><br>
+            <p style="text-align: center;font-weight: bold;">Usability issues:</p>
+            <p style="text-align: center;text-decoration: underline">1.Unexpected exit of the program when clicking “back” button during the game.</p>
+            <p style="text-align: left;">Suggestion of improvement: during a game play, it is understandable that users may want to exit the current play screen and start a new game, but during our heuristic evaluation we found that if the user clicks the “back” button of the smartphone, this actually exits the program and leads the user to home screen of the Android system. Therefore, we would suggest the design team to modify the workflow so when users hit the “back” button, it would take them to a upper  level of the program instead of exiting the program.</p><br>
+            <p style="text-align: center;text-decoration: underline">2. No error prevention for accidental exit of current game.</p>
+            <p style="text-align: left;">Suggestion of improvement: during our heuristic evaluation, we found that users can intentionally exit the game if they accidentally touch the “back” button. This condition, by the heuristic we added for this application evaluation, should be prevented for a good design. For this reason, we would suggest the design team to add a prompt that presents users with a confirmation option before they commit to exit the current game.</p><br>
+            <p style="text-align: center;text-decoration: underline">3. Modifying added player names is not available in the setup stage.</p>
+            <p style="text-align: left;">Suggestion of improvement: During our usability testing, we observed that test users cannot modify their player name once it is added in the setup stage, which means users cannot modify their typos after adding their name to the group. This would undoubtedly frustrate the users when they realize that they cannot correct their mistakes they made in the setup process, and have to abide them throughout the game. In reality, we did catch a negative comment from our test subjects regarding this missing feature. Consequently, we would suggest the design team to add in this feature for user’s freedom and their satisfaction.
+            </p><br>
+            <p style="text-align: center;text-decoration: underline">4. Editing existing groups is not available.</p>
+            <p style="text-align: left;">Suggestion of improvement: During our heuristic evaluation of the prototype, we noticed that there was nothing users could do with the existing groups -- neither could we modify them nor could we delete them. This basically requires users to be error free to create the group, and with time going by, the accumulated existing groups will take up more and more memory space resulting in  a waste of system resources. Furthermore, by the heuristic of “March between system and the real world”, we should be able to revise the information in databases from a standpoint of real-world conventions. For this reason, we would suggest the design team to enable an “edit existing groups” to make a better user experience. </p><br>
+            <p style="text-align: center;text-decoration: underline">5. Indication of the current and next player is not available in system status.</p>
+            <p style="text-align: left;">Suggestion of improvement: In our heuristic evaluation, we noticed that the design team made a system status bar at the top to indicate the progress of a game, which we found rather convenient by the heuristic of “visibility of system status”. However, we would suggest the design team to add a more indicators of system status given the fact that the game involves round switches between multiple players, such as indication of current and next players. This ideally should help the users keep track of a game progress.</p><br>
     </div>
+ </div>
  </div>
  </body>
 <script>
